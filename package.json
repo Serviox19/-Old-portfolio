@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Serviox19/Portfolio.git"
+  },
+  "author": "Servio Mora",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/Serviox19/Portfolio/issues"
+  },
+  "dependencies": {
+    "morgan": "~1.7.0",
+    "body-parser": "~1.15.0",
+    "express": "~4.13.4"
+  }
+}

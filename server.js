@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-var log,ger = require('morgan');
+var logger = require('morgan');
 var bodyParser = require('body-parser');
 var PORT = process.env.PORT || 3000;
 
