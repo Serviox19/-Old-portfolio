@@ -3,6 +3,12 @@ body {
   color: #000;
 }
 
+.top-bar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 .top-bar h5 {
   color: black;
 }
+
