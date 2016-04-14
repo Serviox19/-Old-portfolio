@@ -10,7 +10,7 @@ app.use(express.static("public"));
 
 
 app.get('*', function(req, res){
-  res.sendFile(process.cwd() + '/public/views/index.html');
+  res.sendFile(process.cwd() + '/public/index.html');
 });
 
 
