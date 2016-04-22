@@ -13,19 +13,18 @@
 </head>
 <body>
 
-<div class="title-bar">
-  <div class="title-bar-left">
-    <button class="menu-icon" type="button" data-open="offCanvasLeft"></button>
-    <span class="title-bar-title">Servio</span>
-  </div>
+<div class="title-bar" data-responsive-toggle="nav-menu" data-hide-for="medium">
+   <button class="menu-icon" type="button" data-toggle></button>
+   <div class="title-bar-title">Servio's Portfolio</div>
 </div>
 
-
-
-<div class="off-canvas-wrapper">
-  <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
-    <div class="off-canvas position-left" id="offCanvas" data-off-canvas></div>
-    <div class="off-canvas-content" data-off-canvas-content></div>
+<div class="top-bar" id="nav-menu">
+  <div class="top-bar-left">
+    <ul class="dropdown menu" data-dropdown-menu>
+      <li><a ui-sref="home">Home</a></li>
+      <li><a ui-sref="about">About</a></li>
+      <li><a ui-sref="projects">Projects</a></li>
+    </ul>
   </div>
 </div>
 
@@ -41,7 +40,7 @@
 <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="bower_components/foundation-sites/js/foundation.core.js"></script>
 <script type="text/javascript" src="bower_components/foundation-sites/dist/plugins/foundation.util.mediaQuery.js"></script>
-<script type="text/javascript" src="bower_components/foundation-sites/dist/foundation.min.js"></script>
+<script type="text/javascript" src="bower_components/foundation-sites/dist/foundation.js"></script>
 <script type="text/javascript" src="bower_components/foundation-sites/dist/plugins/foundation.offcanvas.js"></script>
 <script type="text/javascript" src="bower_components/foundation-sites/dist/plugins/foundation.util.triggers.js"></script>
 <script type="text/javascript" src="bower_components/foundation-sites/dist/plugins/foundation.util.motion.js"></script>
