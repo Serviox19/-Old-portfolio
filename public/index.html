@@ -3,9 +3,9 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Servio's Portfolio</title>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.3/angular.min.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.min.js"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.0/foundation.min.css">
+  <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+  <script type="text/javascript" src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+  <link rel="stylesheet" href="bower_components/foundation-sites/dist/foundation.min.css">
   <link rel="stylesheet" type="text/css" href="./css/style.css">
   <link rel="stylesheet" type="text/css" href="./css/about.css">
   <link rel="stylesheet" type="text/css" href="./css/projects.css">
@@ -13,18 +13,19 @@
 </head>
 <body>
 
-<div class="title-bar" data-responsive-toggle="nav-menu" data-hide-for="medium">
-  <button class="menu-icon" type="button" data-toggle></button>
-  <div class="title-bar-title"><a ui-sref="home">Servio's Portfolio</a></div>
+<div class="title-bar">
+  <div class="title-bar-left">
+    <button class="menu-icon" type="button" data-open="offCanvasLeft"></button>
+    <span class="title-bar-title">Servio</span>
+  </div>
 </div>
 
-<div class="top-bar" id="nav-menu">
-  <div class="top-bar-left">
-    <ul class="dropdown menu" data-dropdown-menu>
-      <li><a ui-sref="home">Home</a></li>
-      <li><a ui-sref="about">About</a></li>
-      <li><a ui-sref="projects">Projects</a></li>
-    </ul>
+
+
+<div class="off-canvas-wrapper">
+  <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+    <div class="off-canvas position-left" id="offCanvas" data-off-canvas></div>
+    <div class="off-canvas-content" data-off-canvas-content></div>
   </div>
 </div>
 
@@ -36,25 +37,18 @@
 </div>
 
 
-<!-- <div class="row">
-  <div class="small-12 columns">
-    <div class="footer">
-      <h6>Links(will change location)</h6>
-      <ul>
-        <li><a href="https://github.com/Serviox19" target="_blank">Github</a></li>
-        <li><a href="https://www.linkedin.com/in/servio-mora-b93972108" target="_blank">LinkedIn</a></li>
-        <li><a href="" target="_blank">Twitter</a></li>
-      </ul>
-    </div>
-  </div>
-</div> -->
-
 <!-- Javascripts -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/foundation/6.2.0/foundation.min.js"></script>
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="bower_components/foundation-sites/js/foundation.core.js"></script>
+<script type="text/javascript" src="bower_components/foundation-sites/dist/plugins/foundation.util.mediaQuery.js"></script>
+<script type="text/javascript" src="bower_components/foundation-sites/dist/foundation.min.js"></script>
+<script type="text/javascript" src="bower_components/foundation-sites/dist/plugins/foundation.offcanvas.js"></script>
+<script type="text/javascript" src="bower_components/foundation-sites/dist/plugins/foundation.util.triggers.js"></script>
+<script type="text/javascript" src="bower_components/foundation-sites/dist/plugins/foundation.util.motion.js"></script>
 <script type="text/javascript" src="bower_components/angular-animate/angular-animate.min.js"></script>
 <script type="text/javascript" src="/js/app.js"></script>
-<script type="text/javascript" src="/js/homeCtrl.js"></script>
+<!-- <script type="text/javascript" src="/js/homeCtrl.js"></script> -->
+<script type="text/javascript" src="/js/foundation.js"></script>
 <script type="text/javascript" src="/js/index.js"></script>
 </body>
 </html>

@@ -3,25 +3,18 @@ body {
 }
 
 .title-bar {
-  height: 50px;
+  height: 60px;
 }
 
-.top-bar {
+/*.top-bar {
 overflow: hidden;
 height: 45px;
 line-height: 50px;
 position: relative;
 background: #333333;
 margin-bottom: 10;
-}
+}*/
 
-.top-bar ul {
-  background: #333333;
-}
-
-#view {
-  margin-top: 10px;
-}
 
 
 
