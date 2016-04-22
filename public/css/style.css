@@ -6,14 +6,20 @@ body {
   height: 60px;
 }
 
-/*.top-bar {
+.top-bar {
 overflow: hidden;
-height: 45px;
 line-height: 50px;
 position: relative;
-background: #333333;
-margin-bottom: 10;
-}*/
+background: #000;
+}
+
+.top-bar ul {
+background-color: #000;
+}
+
+#view {
+  margin-top: 10px;
+}
 
 
 
