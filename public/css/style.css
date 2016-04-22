@@ -1,14 +1,29 @@
 body {
-  background-color: #66CCCC;
-  color: #000;
+  background-color: #EDF0F5;
+}
+
+.title-bar {
+  height: 50px;
 }
 
 .top-bar {
-  padding-top: 15px;
-  padding-bottom: 15px;
+overflow: hidden;
+height: 45px;
+line-height: 50px;
+position: relative;
+background: #333333;
+margin-bottom: 10;
 }
 
-.top-bar h5 {
-  color: black;
+.top-bar ul {
+  background: #333333;
 }
+
+#view {
+  margin-top: 10px;
+}
+
+
+
+
 
