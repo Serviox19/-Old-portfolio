@@ -10,9 +10,9 @@ angular
     });
 
     $stateProvider
-    .state('about', {
-      url: '/about',
-      templateUrl: '/views/about.html'
+    .state('skills', {
+      url: '/skills',
+      templateUrl: '/views/skills.html'
     });
 
     $stateProvider

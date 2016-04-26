@@ -1,0 +1,22 @@
+body {
+  background-color: #333333;
+  color: white;
+}
+
+.container {
+  width: 700px;
+}
+
+.navbar ul li a{
+  color: white;
+}
+
+.navbar ul li a:hover{
+  background-color: transparent;
+  color: white;
+}
+
+.jumbotron {
+background-image: url("../images/home.jpg");
+background-size: cover;
+}
