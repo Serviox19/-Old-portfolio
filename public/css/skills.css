@@ -1,4 +1,19 @@
+.thumbnail {
+  background-color: transparent;
+  border-color: transparent;
+}
 
+.thumbnail .caption {
+  color: white;
+}
+
+.thumbnail .cation {
+
+}
+
+.skills-title h4 {
+  text-align: center;
+}
 
 
 

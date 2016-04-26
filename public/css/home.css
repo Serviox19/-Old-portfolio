@@ -58,6 +58,7 @@ background-image: url("../images/home.jpg");
 background-size: cover;
 }
 
+
 .thumbnail img {
   text-align: center;
 }
@@ -68,6 +69,10 @@ background-size: cover;
 
 .caption p {
   text-align: justify;
+}
+
+.links a {
+  margin: 0 auto;
 }
 
 .img-circle {

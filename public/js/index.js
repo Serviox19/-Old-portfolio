@@ -1,3 +1,7 @@
 $(document).ready(function(){
-  $('.collapse').collapse();
+  $('.collapse').collapse('hide');
+
+  $('.nav-links').on('click', function() {
+    $('.collapse').collapse('toggle');
+  });
 });
