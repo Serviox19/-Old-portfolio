@@ -15,6 +15,20 @@
   text-align: center;
 }
 
+/* Title for each Technology */
+.caption h3 {
+
+}
+
+.caption .skill-info {
+  text-align: center;
+}
+
+.tools {
+  max-width: 250px;
+  max-height: 200px;
+}
+
 
 
 
