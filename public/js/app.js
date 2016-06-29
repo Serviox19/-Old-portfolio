@@ -1,6 +1,7 @@
 angular
   .module('portfolio', ['ui.router'])
-  .config(['$urlRouterProvider', '$stateProvider', function($urlRouterProvider, $stateProvider){
+  .config(['$urlRouterProvider', '$stateProvider', '$locationProvider', function($urlRouterProvider, $stateProvider, $locationProvider){
+
     $urlRouterProvider.otherwise('/');
 
     $stateProvider
@@ -20,4 +21,6 @@ angular
       url: '/projects',
       templateUrl: '/views/projects.html'
     });
-  }])
+
+    $locationProvider.html5Mode(true);
+  }]);
