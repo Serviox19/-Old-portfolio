@@ -64,12 +64,16 @@ body {
 
 /*#############NAVBAR###################*/
 
-.jumbotron {
-background-image: url("https://dl.dropboxusercontent.com/s/a91qnc3fncdjvoj/home.jpg?dl=0");
+.banner {
+width: 100%;
+height: 500px;
+background-image: url("https://dl.dropboxusercontent.com/s/ztflhby6i8jgd4l/coding-699395.jpg?dl=0");
 background-size: cover;
+background-repeat: no-repeat;
+background-position: 50% 50%;
 }
 
-.jumbotron h1 {
+.banner h1 {
   color: white;
 }
 
