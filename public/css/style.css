@@ -1,0 +1,39 @@
+
+.header {
+  background-image: url('https://dl.dropboxusercontent.com/s/h4t0usfm6vzgcov/landing-image.jpg?dl=0');
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h1 {
+  color: #FFFAFA;
+}
+
+.navbar {
+  background-color: transparent;
+  border: none;
+}
+
+.navbar .navbar-brand {
+}
+
+.navbar .navbar-nav li a {
+  font-size: 1.5em;
+  color: black;
+}
+
+.navbar .navbar-nav li a:hover {
+  color: blue;
+}
+
+body {
+  background: #FFF5EE;
+}
+
+#row1 {
+  margin-top: 50px;
+}
