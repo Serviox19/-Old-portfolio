@@ -25,7 +25,7 @@ body {
   margin: 0;
   border-radius: 0;
   overflow: hidden;
-  background-color: #3b8dbd;
+  background-color: #4682B4;
 }
 
 .navbar h1#logo {
@@ -34,8 +34,8 @@ body {
   float: left;
   margin-left:50px;
   font-size: 30px;
-  color: white;
-  font-weight: 400;
+  color: black;
+  font-weight: 500;
 }
 
 .navbar nav {
@@ -47,9 +47,9 @@ body {
 .navbar nav a {
   line-height: 80px;
   margin-left: 20px;
-  color: #9fdbfc;
-  font-weight: 400;
-  font-size: 18px;
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .navbar nav a:hover {
@@ -65,7 +65,7 @@ body {
   width: 100%;
 }
 
-/* ########## NAVBAR STUFF ########### */
+/* ########## END NAVBAR STUFF ########### */
 
 
 /* ########## ABOUT ME STUFF ########### */
@@ -99,16 +99,38 @@ body {
 
 .resume {
   padding-top: 15px;
+  text-align: center;
 }
 
 .resume button {
-  font-size: 1.2em;
+  font-size: 1.3em;
+  text-align: center;
 }
 
-/* ########## ABOUT ME STUFF ########### */
+/* ########## END ABOUT ME STUFF ########### */
 
 .skills {
-  background-color: black;
+  background-color: #778899;
   color: #FFFAFA;
-  height: 400px;
+}
+
+.skills .row {
+  margin-bottom: 50px;
+}
+
+.skills h1 {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+
+.skills h3 {
+  text-align: center;
+}
+
+.skills svg {
+  display: block;
+  margin: auto;
+  max-width: 125px;
+  max-height: inherit;
 }
