@@ -134,3 +134,8 @@ body {
   max-width: 125px;
   max-height: inherit;
 }
+
+.skills svg:hover {
+  opacity: 0.2;
+  pointer-events: inherit;
+}
