@@ -109,6 +109,9 @@ body {
 
 /* ########## END ABOUT ME STUFF ########### */
 
+
+/* ########## SKILLS STUFF ########### */
+
 .skills {
   background-color: #778899;
   color: #FFFAFA;
@@ -136,6 +139,67 @@ body {
 }
 
 .skills svg:hover {
-  opacity: 0.2;
+  opacity: 0.4;
   pointer-events: inherit;
 }
+
+/* ########## END SKILLS STUFF ########### */
+
+/* ########## PROJECTS STUFF ########### */
+
+.projects {
+  margin-bottom: 30px;
+  /*background-color: ;*/
+}
+
+.projects h1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.projects h1, h3 {
+  text-align: center;
+}
+
+.projects p {
+  text-align: justify;
+  font-weight: 480;
+}
+
+.thumbnail {
+  border: none;
+  background-color: transparent;
+  padding-bottom: 25px;
+}
+
+.btn btn-default {
+  padding-right: 20px;
+}
+
+.project-pic {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 15px;
+  image-rendering: auto;
+  border-radius: 5px;
+}
+
+
+.sports-caption {
+  padding-top: 10px;
+}
+
+.sports-caption p {
+  text-align: justify;
+}
+
+.caption .project-links {
+  margin-bottom: 10px;
+}
+
+.project-links a {
+  display: inline-block;
+  padding-left: 20px;
+}
+
+
+/* ########## END PROJECTS STUFF ########### */
