@@ -67,6 +67,9 @@ body {
 
 /* ########## NAVBAR STUFF ########### */
 
+
+/* ########## ABOUT ME STUFF ########### */
+
 .about {
   padding-bottom: 25px;
 }
@@ -96,4 +99,16 @@ body {
 
 .resume {
   padding-top: 15px;
+}
+
+.resume button {
+  font-size: 1.2em;
+}
+
+/* ########## ABOUT ME STUFF ########### */
+
+.skills {
+  background-color: black;
+  color: #FFFAFA;
+  height: 400px;
 }
