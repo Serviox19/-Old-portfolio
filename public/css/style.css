@@ -21,7 +21,7 @@ body {
 
 .navbar {
   width: 100%;
-  height: 80px;
+  height: 70px;
   margin: 0;
   border-radius: 0;
   overflow: hidden;
@@ -30,7 +30,7 @@ body {
 
 .navbar h1#logo {
   display: inline-block;
-  height: 80px;
+  height: 70px;
   float: left;
   margin-left:50px;
   font-size: 30px;
@@ -148,8 +148,8 @@ body {
 /* ########## PROJECTS STUFF ########### */
 
 .projects {
-  margin-bottom: 30px;
-  /*background-color: ;*/
+  padding-bottom: 30px;
+  background-color: #ADD8E6;
 }
 
 .projects h1 {
@@ -199,7 +199,10 @@ body {
 .project-links a {
   display: inline-block;
   padding-left: 20px;
+  background-color: transparent;
+  border: none;
+  font-size: 1.3em;
+  font-weight: 500;
 }
-
 
 /* ########## END PROJECTS STUFF ########### */
