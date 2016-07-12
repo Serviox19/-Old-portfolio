@@ -50,6 +50,7 @@ body {
   color: black;
   font-weight: 500;
   font-size: 20px;
+  text-decoration: none;
 }
 
 .navbar nav a:hover {
@@ -60,9 +61,30 @@ body {
 
 .navbar-fixed {
   top: 0;
-  z-index: 100;
+  z-index: 999;
   position: fixed;
   width: 100%;
+}
+
+.about-anchor {
+  top: -70px !important;
+  display: block;
+  position: relative;
+  visibility: hidden;
+}
+
+.skills-anchor {
+  top: -70px !important;
+  display: block;
+  position: relative;
+  visibility: hidden;
+}
+
+.proj-anchor {
+  top: -70px !important;
+  display: block;
+  position: relative;
+  visibility: hidden;
 }
 
 /* ########## END NAVBAR STUFF ########### */
@@ -145,6 +167,7 @@ body {
 
 /* ########## END SKILLS STUFF ########### */
 
+
 /* ########## PROJECTS STUFF ########### */
 
 .projects {
@@ -153,7 +176,7 @@ body {
 }
 
 .projects h1 {
-  padding-top: 10px;
+  padding-top: 15px;
   padding-bottom: 10px;
 }
 

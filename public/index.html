@@ -18,13 +18,13 @@
   <div class="container">
     <h1 id="logo">Servio Mora</h1>
     <nav>
-        <a href="">About Me</a>
-        <a href="">Skills</a>
-        <a href="">Projects</a>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
     </nav>
   </div>
 </div>
-<div class="about">
+<div class="about"><a class="about-anchor" id="about"></a>
   <div class="container">
     <div class="row" id="aboutRow">
       <div class="col-md-4">
@@ -40,10 +40,12 @@
     </div>
   </div>
 </div><!-- End About-->
-<div class="skills">
+<div class="skills"><a class="skills-anchor" id="skills"></a>
   <div class="container">
     <div class="row">
       <h1>My Tools &amp; Skills</h1>
+    </div>
+    <div class="row">
       <div class="col-md-3">
         <svg viewBox="0 0 128 128">
           <path fill="#E44D26" d="M19.037 113.876l-10.005-112.215h109.936l-10.016 112.198-45.019 12.48z"></path><path fill="#F16529" d="M64 116.8l36.378-10.086 8.559-95.878h-44.937z"></path><path fill="#EBEBEB" d="M64 52.455h-18.212l-1.258-14.094h19.47v-13.762h-34.511l.33 3.692 3.382 37.927h30.799zM64 88.198l-.061.017-15.327-4.14-.979-10.975h-13.817l1.928 21.609 28.193 7.826.063-.017z"></path><path fill="#fff" d="M63.952 52.455v13.763h16.947l-1.597 17.849-15.35 4.143v14.319l28.215-7.82.207-2.325 3.234-36.233.335-3.696h-3.708zM63.952 24.599v13.762h33.244l.276-3.092.628-6.978.329-3.692z"></path>
@@ -149,7 +151,7 @@
     </div><!-- End Row -->
   </div><!-- End Container -->
 </div><!-- End Skills Div -->
-<div class="projects">
+<div class="projects"><a class="proj-anchor" id="projects"></a>
   <div class="container">
     <div class="row">
       <h1>Projects</h1>
@@ -206,7 +208,6 @@
 <!-- Javascripts -->
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="/js/index.js"></script>
 <script type="text/javascript" src="/js/scroll.js"></script>
 </body>
 </html>
