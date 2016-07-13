@@ -17,6 +17,7 @@
   "dependencies": {
     "bootstrap": "^3.3.6",
     "font-awesome": "fontawesome#^4.6.1",
-    "devicon": "*"
+    "devicon": "*",
+    "animate.css": "^3.5.2"
   }
 }
