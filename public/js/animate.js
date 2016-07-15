@@ -1,5 +1,9 @@
 $(document).ready(function() {
-
-// $('#logo').addClass('animated bounceOutLeft');
-
+  setTimeout(function () {
+    $('#welcome').show().addClass('animated bounceInDown');
+    setTimeout(function () {
+      $('#welcome').removeClass('animated bounceInDown');
+      $('#welcome').addClass('animated rubberBand');
+    }, 1000);
+  }, 600);
 });
