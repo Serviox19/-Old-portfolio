@@ -5,5 +5,5 @@ $(document).ready(function() {
       $('#welcome').removeClass('animated bounceInDown');
       $('#welcome').addClass('animated rubberBand');
     }, 1000);
-  }, 600);
+  }, 1200);
 });
