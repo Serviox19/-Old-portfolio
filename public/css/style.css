@@ -1,6 +1,6 @@
 
 .header {
-  background-image: url('https://dl.dropboxusercontent.com/s/h4t0usfm6vzgcov/landing-image.jpg?dl=0');
+  background-image: url('../images/compressed-landing.jpg');
   height: 100vh;
   background-size: cover;
   display: flex;
